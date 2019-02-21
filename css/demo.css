@@ -18,6 +18,10 @@
 	box-sizing: border-box;
 }
 
+.wordcolor {
+color : #008c9a;
+font-family: 'Caveat', cursive;
+}
 
 html {
 	overflow-y: scroll;
@@ -61,14 +65,17 @@ a {
 	text-decoration: none;
 	color: #008c9a;
 	outline: none;
+	border : 5px dotted #008c9a;
+	padding: 6px;
+	float: right;
 }
 
 a:focus {ec7159
-	color: #ddd;
+	color: #008c9a;
 }
 
 a:hover {
-	color: #fff;
+	color: #ffffff;
 }
 
 /* Blueprint header */
@@ -88,6 +95,7 @@ a:hover {
 	font-weight: 400;
 	line-height: 1.3;
 	margin: 0 0 .6em 0;
+
 }
 
 .bp-header h1 > span {
